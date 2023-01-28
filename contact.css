@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300&display=swap');
+form{
+    border: 3px solid red;
+    margin: 2vw;
+    padding: 4vw;
+    font-family: "Baloo Bhai 2", cursive;
+}
+.eligible{
+margin: 4vh;
+font-weight: bold;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 2rem;
+}
+.num{
+margin: 1px;
+}
+.name{
+    margin: 1px;
+}
+.email{
+    margin: 1px;
+}
+.area{
+    margin: 1px;
+}
+.submit{
+    margin: 1px;
+}

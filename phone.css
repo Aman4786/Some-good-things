@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img1 {
+  position: absolute;
+  right: 9%;
+  bottom: 260px;
+}
+.img2 {
+  position: absolute;
+  left: 9%;
+  bottom: 260px;
+}
+.img3 {
+  position: absolute;
+  width: 640px;
+  left: 0%;
+  bottom: 0;
+}
+.img4 {
+  position: absolute;
+  width: 206px;
+  left: 8%;
+  bottom: 0;
+}
+
+
+.header {
+  display: block;
+  text-align: center;
+}
+.header .first-header {
+  margin: 2% auto;
+  display: block;
+}
+.header .first-header img {
+  width: 10%;
+}
+.header h2 {
+  font-family: "Solitreo", cursive;
+  font-size: 400%;
+  color: blue;
+}
+
+.header .first-header p {
+  font-size: 150%;
+  font-family: "EB Garamond", serif;
+  color: brown;
+  padding: 2%;
+}
+.header .sec-header {
+  left: 21%;
+  position: relative;
+  display: block;
+  width: 50%;
+  background-color: rgb(107, 192, 192);
+  border: 5px solid yellowgreen;
+  border-radius: 5px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.header .sec-header img {
+  width: 33%;
+  display: block;
+  margin-left: 28%;
+}
+.part {
+  padding-top: 4%;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  font-family: "EB Garamond", serif;
+  color: blueviolet;
+}
+.part h3 {
+  position: relative;
+  bottom: 27%;
+  right: 2%;
+  color: yellow;
+}
+.third-header {
+  display: block;
+  left: 21%;
+  position: relative;
+  width: 50%;
+  background-color: rgb(107, 192, 192);
+  border: 5px solid yellowgreen;
+  border-radius: 5px;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+.third-header img {
+  width: 21%;
+  position: absolute;
+  bottom: 58%;
+  right: 38%;
+}
+.part1 {
+  display: inline-block;
+  padding-top: 31%;
+  position: relative;
+  left: 2%;
+  font-family: "EB Garamond", serif;
+  color: blueviolet;
+}
+.part1 h3 {
+  position: absolute;
+  bottom: 43%;
+  right: 28%;
+  color: yellow;
+  padding: 2%;
+}
+
+h3 {
+  color: rgb(201, 11, 11);
+  padding: 2%;
+  font-size: 120%;
+  font-family: "Solitreo", cursive;
+}
+p {
+  font-family: "EB Garamond", serif;
+  padding-bottom: 1%;
+}
+.btn button {
+  background-color: chartreuse;
+  font-size: 150%;
+  font-family: "EB Garamond", serif;
+  font-style: bold;
+  text-decoration: none;
+  border: 5px solid greenyellow;
+  border-radius: 8%;
+}
+.btn button a {
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+}
+
+/* This is footer part  */
+.footer {
+  text-align: center;
+  background-color: rgb(76, 126, 92);
+  margin-top: 1%;
+}
+.social {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  padding: 3%;
+  font-size: 150%;
+  font-family: "Solitreo", cursive;
+  list-style: none;
+}
+.social a {
+  text-decoration: none;
+}
+.social li {
+  padding: 2%;
+}
+h4 {
+  padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 681px) {
+    body{
+        width: 100%;
+    }
+    .container {
+      background-color: rgb(117, 199, 199);
+      position: relative;
+      height: 682px;
+      width: 66%;
+    }
+    .intro {
+      display: inline-block;
+      position: absolute;
+      left: 9%;
+      top: 250px;
+      color: green;
+      font-family: "Solitreo", cursive;
+    }
+    .third-header img {
+      width: 21%;
+      position: absolute;
+      bottom: 72%;
+      right: 38%;
+  }
+
+  .part1 h3 {
+    position: absolute;
+    bottom: 58%;
+    right: 15%;
+    color: yellow;
+    padding: 3%;
+}
+  
+    .img1 {
+      position: absolute;
+      right: 44%;
+      bottom: 387px;
+      width: 35%;
+    }
+    .img2 {
+      position: absolute;
+      left: 4%;
+      bottom: 181px;
+      width: 39%;
+    }
+    .img3 {
+      position: absolute;
+      width: 430px;
+      bottom: 0;
+    }
+    .img4 {
+      position: absolute;
+      width: 176px;
+      left: 1%;
+      bottom: 0;
+    }
+    .header {
+      text-align: center;
+      width: 69%;
+    }
+    .header h2 {
+      font-family: "Solitreo", cursive;
+      font-size: 250%;
+      color: blue;
+    }
+    .header .first-header p {
+      font-size: 94%;
+      font-family: "EB Garamond", serif;
+      color: brown;
+      padding: 4%;
+    }
+    hr {
+        border-top: 10px dotted red;
+        border-image: initial;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 20%;
+        position: absolute;
+        left: 26%;
+    }
+  }
